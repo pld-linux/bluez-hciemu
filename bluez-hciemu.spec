@@ -26,6 +26,7 @@ Emulacja HCI dla linuksowego stosu protoko³u Bluetooth.
 %patch0 -p1
 
 %build
+cp -f /usr/share/automake/config.sub .
 %{__aclocal}
 %{__autoconf}
 %{__automake}
