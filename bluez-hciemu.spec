@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
+# Source0-md5:	52477bdcd5a2c0fb5c56ad92f608ab94
 Patch0:		%{name}-opt.patch
 URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf
