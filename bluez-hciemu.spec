@@ -13,6 +13,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel
 BuildRequires:	glib-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,7 +27,7 @@ Emulacja HCI dla linuksowego stosu protoko³u Bluetooth.
 %patch0 -p1
 
 %build
-cp -f /usr/share/automake/config.sub .
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__automake}
