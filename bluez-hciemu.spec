@@ -1,13 +1,12 @@
 Summary:	HCI Emulation for Linux Bluetooth protocol stack
 Summary(pl):	Emulacja HCI dla linuksowego stosu protoko³u Bluetooth
 Name:		bluez-hciemu
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
-# Source0-md5:	52477bdcd5a2c0fb5c56ad92f608ab94
-Patch0:		%{name}-opt.patch
+# Source0-md5:	922951bee62e466de58857ef039de361
 URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -24,7 +23,6 @@ Emulacja HCI dla linuksowego stosu protoko³u Bluetooth.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__libtoolize}
