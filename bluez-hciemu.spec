@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Applications/System
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
 # Source0-md5:	94d99005c3068334387012bf579e0af7
-URL:		http://bluez.sourceforge.net/
+URL:		http://www.bluez.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 2.18
