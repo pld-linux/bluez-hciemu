@@ -1,5 +1,5 @@
 Summary:	HCI Emulation for Linux Bluetooth protocol stack
-Summary(pl):	Emulacja HCI dla linuksowego stosu protoko≥u Bluetooth
+Summary(pl.UTF-8):   Emulacja HCI dla linuksowego stosu protoko≈Çu Bluetooth
 Name:		bluez-hciemu
 Version:	1.2
 Release:	2
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HCI Emulation for Linux Bluetooth protocol stack.
 
-%description -l pl
-Emulacja HCI dla linuksowego stosu protoko≥u Bluetooth.
+%description -l pl.UTF-8
+Emulacja HCI dla linuksowego stosu protoko≈Çu Bluetooth.
 
 %prep
 %setup -q
